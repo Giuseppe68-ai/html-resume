@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 3px;
+}
+a {
+  color: blue;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  color: blue;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: 100;
+}
+h4 {
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+h5 {
+  text-align: center;
+  margin-top: 3px;
+}
+.chocolate-text {
+  color: rgb(177, 81, 12);
+}
+.contact-me {
+  font-size: 0.8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  /* Remove default ul spacing */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+  white-space: nowrap;
+}
